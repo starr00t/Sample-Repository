@@ -1138,6 +1138,52 @@
         "wires": []
     },
     {
+        "id": "0f896c4415b21994",
+        "type": "inject",
+        "z": "ae0f284a2713b016",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 290,
+        "y": 1200,
+        "wires": [
+            [
+                "87ce3d3a7e29dbed"
+            ]
+        ]
+    },
+    {
+        "id": "87ce3d3a7e29dbed",
+        "type": "debug",
+        "z": "ae0f284a2713b016",
+        "name": "debug 12",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 880,
+        "y": 1200,
+        "wires": []
+    },
+    {
         "id": "0c643b5c4a01123c",
         "type": "ui_slider",
         "z": "7d542e080b6f97d4",
