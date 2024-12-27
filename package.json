@@ -1,0 +1,12 @@
+{
+    "name": "Node-Red_Sample",
+    "description": "Node-Red Sample 은 해당 플랫폼의  스터디를 위해 간단히 기능들을 테스트합니다.",
+    "version": "0.0.1",
+    "dependencies": {},
+    "node-red": {
+        "settings": {
+            "flowFile": "flows.json",
+            "credentialsFile": "flows_cred.json"
+        }
+    }
+}
