@@ -1042,6 +1042,56 @@
         "wires": []
     },
     {
+        "id": "06bcc49de17c9c88",
+        "type": "ui_date_picker",
+        "z": "ae0f284a2713b016",
+        "name": "",
+        "label": "date",
+        "group": "001616ce1f0ba5ff",
+        "order": 12,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 280,
+        "y": 1050,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "dcd1b5a57ea0366e",
+        "type": "ui_colour_picker",
+        "z": "ae0f284a2713b016",
+        "name": "",
+        "label": "",
+        "group": "001616ce1f0ba5ff",
+        "format": "hex",
+        "outformat": "string",
+        "showSwatch": true,
+        "showPicker": false,
+        "showValue": false,
+        "showHue": false,
+        "showAlpha": false,
+        "showLightness": true,
+        "square": "false",
+        "dynOutput": "false",
+        "order": 13,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 300,
+        "y": 1100,
+        "wires": [
+            []
+        ]
+    },
+    {
         "id": "0c643b5c4a01123c",
         "type": "ui_slider",
         "z": "7d542e080b6f97d4",
