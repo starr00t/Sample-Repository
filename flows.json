@@ -1092,6 +1092,51 @@
         ]
     },
     {
+        "id": "bb5a3c97142e557c",
+        "type": "inject",
+        "z": "ae0f284a2713b016",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 290,
+        "y": 1150,
+        "wires": [
+            [
+                "a225f595a504b76a"
+            ]
+        ]
+    },
+    {
+        "id": "a225f595a504b76a",
+        "type": "debug",
+        "z": "ae0f284a2713b016",
+        "name": "debug 11",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 880,
+        "y": 1150,
+        "wires": []
+    },
+    {
         "id": "0c643b5c4a01123c",
         "type": "ui_slider",
         "z": "7d542e080b6f97d4",
